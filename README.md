@@ -37,19 +37,23 @@
     - Принимает double* `ptr_array`, int `size` - указатель на массив, размер
     - Возврашает 0
 14. Пункты 7 - 13 повторяются для массивов B и C
-15. Для массива D повторяются пункты 7 - 9
-16. `array_D` = get_new_array(`array_A`, `array_B`, `array_C`, `array_D`, `size_D`)
+15. size_D = minimal(size_A, size_B, size_C)
+    - Функция находит минимальный из размеров трех массивов
+    - Принимает int `A`, int `B`, int `C` - размеры массивов
+    - Возвращает `A` или `B` или `C`
+16. Для массива D повторяются пункты 8 - 9
+17. `array_D` = get_new_array(`array_A`, `array_B`, `array_C`, `array_D`, `size_D`)
     - Функция заполняет массив, каждый элемент которого определяется как среднее арифметическое соответствующих трех элементов из массивов A, B и C
     - Принимает double* `ptr_array_A`, double* `ptr_array_B`, double* `ptr_array_C`, double* `ptr_new_array`, int `size` - указатели на массивы A, B, C и D, размер массива D
     - Возвращает double* `ptr_new_array` - указатель на массив D
-17. Вывод данных
-18. Вызов функции put_array(`array_D`, `size_D`)
-19. Очищение массивов
+18. Вывод данных
+19. Вызов функции put_array(`array_D`, `size_D`)
+20. Очищение массивов
     - free(`array_A`)
     - free(`array_B`)
     - free(`array_C`)
     - free(`array_D`)
-20. **Конец**
+21. **Конец**
 
 ### Блок-схема
 ![Блок-схема алгоритма](Images/SCHEMA_lab16.png) 
