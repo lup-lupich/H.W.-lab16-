@@ -43,12 +43,12 @@
     - Принимает double* `ptr_array_A`, double* `ptr_array_B`, double* `ptr_array_C`, double* `ptr_new_array`, int `size` - указатели на массивы A, B, C и D, размер массива D
     - Возвращает double* `ptr_new_array` - указатель на массив D
 17. Вывод данных
-18. Вызов функции put_array(array_D, size_D)
+18. Вызов функции put_array(`array_D`, `size_D`)
 19. Очищение массивов
-    - free(array_A)
-    - free(array_B)
-    - free(array_C)
-    - free(array_D)
+    - free(`array_A`)
+    - free(`array_B`)
+    - free(`array_C`)
+    - free(`array_D`)
 20. **Конец**
 
 ### Блок-схема
